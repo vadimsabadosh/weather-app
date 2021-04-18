@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const appID = '2f720667554e58071332a55212703508'
-const baseURL = `http://api.openweathermap.org/data/2.5/weather?lang=uk&units=metric&appid=${appID}`;
+const baseURL = `https://api.openweathermap.org/data/2.5/weather?lang=uk&units=metric&appid=${appID}`;
 
 export const weatherAPI = {
   getWeatherByCity(city){
