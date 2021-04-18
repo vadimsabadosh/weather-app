@@ -1,0 +1,108 @@
+
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.305);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.modal{
+  margin-top: 150px;
+  width: 320px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f0ede7;
+  position: relative;
+}
+.closeIcon{
+  border: none;
+  background-color: none;
+  display: block;
+  font-size: 32px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color:#383d5a;
+  cursor: pointer;
+  outline: none;
+
+}
+.cityEnter{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+  box-shadow: 0 0 15px 0px lightgrey;
+  padding: 5px 10px;
+  background: #fffdf8;
+  height: 35px;
+  color:#383d5a;
+  cursor: pointer;
+}
+.city_enter_field {
+  display: block;
+  width: 80%;
+  border: none;
+  background: none;
+  outline: none;
+}
+.city_find{
+  width: 15%;
+  border: none;
+  background: none;
+  margin-left: 5%;
+  color:#383d5a;
+  cursor: pointer;
+  outline: none;
+
+}
+.search_img{
+  max-width: 22px;
+}
+
+
+
+
+
+.findLocation_btn{
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px 0px lightgrey;
+  background: #fffdf8;
+  padding: 5px 15px;
+  border-radius: 6px;
+  color:#383d5a;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+
+}
+.myLocation_img{
+  width: 30px;
+  margin-right: 10px;
+}
+.location_text{
+  font-size: 16px;
+  font-weight: 600;
+  color:#383d5a;
+  font-family: 'Raleway', sans-serif;
+
+}
+.error_wrapper{
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error_wrapper img{
+  width: 40%;
+}
